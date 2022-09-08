@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <marquee>First javascript application</marquee>
+    <h1 align="center">Calculator</h1><br>
+
+
+    <div align="center">
+       <label>OP1<input type="text" id="op1"></label> 
+       <label>OP2<input type="text" id="op2"></label> 
+       <label>Result<input type="text" id="output"></label> 
+<br><br>
+       <div align="center">
+        <input type="button" value="+" id="add" onclick="operation(this.id)">
+        <input type="button" value="-" id="sub" onclick="operation(this.id)">
+        <input type="button" value="*" id="mul" onclick="operation(this.id)">
+        <input type="button" value="/" id="div" onclick="operation(this.id)">
+        <input type="reset" value="reset" id="reset" onclick="operation(this.id)">
+
+       </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
